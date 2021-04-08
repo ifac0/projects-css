@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Background Slider</title>
+  </head>
+
+  <body>
+    <div class="slider-container">
+      <div
+        class="slide"
+        style="background-image: url('https://picsum.photos/id/4/2000/3000')"
+      ></div>
+
+      <div
+        class="slide active"
+        style="background-image: url('https://picsum.photos/id/3/2000/3000')"
+      ></div>
+
+      <div
+        class="slide"
+        style="background-image: url('https://picsum.photos/id/2/2000/3000')"
+      ></div>
+
+      <div
+        class="slide"
+        style="background-image: url('https://picsum.photos/id/1/2000/3000')"
+      ></div>
+
+      <button class="arrow left-arrow" id="left">
+        <i class="fas fa-arrow-left"></i>
+      </button>
+
+      <button class="arrow right-arrow" id="right">
+        <i class="fas fa-arrow-right"></i>
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
